@@ -1,4 +1,4 @@
-# icecream_django
-1.python manage.py migrate
-2.python manage.py makemigrations
+# icecream_django<br>
+1.python manage.py migrate<br>
+2.python manage.py makemigrations<br>
 3.python manage.py runserver
