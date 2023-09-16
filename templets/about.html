@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+{% block body %}
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="display-4">About Ice Cream Shop</h2>
+          <p class="lead">Welcome to Ice Cream Shop, where our passion for crafting exquisite ice cream creations knows no bounds. Since our inception, we've dedicated ourselves to providing a delightful and unforgettable experience to ice cream enthusiasts of all ages.</p>
+          <p>We pride ourselves on using only the finest, locally sourced ingredients to create each scoop of frozen perfection. Our journey began with a simple vision: to turn ordinary moments into extraordinary memories through the magic of handcrafted ice cream.</p>
+          <p>Our commitment to quality isn't just a motto—it's a way of life. Every batch we churn out is a testament to our dedication to serving you the most delectable and indulgent ice creams you'll ever taste.</p>
+          <a href="#reviews" class="btn btn-primary">Read Reviews</a>
+        </div>
+        <div class="col-md-6">
+          <img src="/static/99.png" alt="Ice Cream Shop" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Reviews Section -->
+  <section id="reviews" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Customer Reviews</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>"Absolutely divine flavors and exceptional service! Ice Cream Shop truly lives up to its name."</p>
+                <footer class="blockquote-footer">Dhaval</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>"I've never tasted ice cream so rich and creamy. Every bite is a moment of pure bliss."</p>
+                <footer class="blockquote-footer">Bhavin</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>"Ice Cream Delights has spoiled me for all other ice creams. It's an experience like no other."</p>
+                <footer class="blockquote-footer">Dhruv</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+{% endblock body %}

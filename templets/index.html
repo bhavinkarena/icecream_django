@@ -1,0 +1,218 @@
+{% extends 'base.html' %}
+{% block title %}{% endblock title %}
+{% block body %}
+<div class="container-fluid px-0">
+  <div id="carouselExample" class="carousel slide my-0 px-0">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/2.jfif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/3.jfif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<div class="album py-2 bg-body-tertiary">
+  <div class="container">
+    <h1 class="my-4 text-center">Select The Ice-Creams</h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/a.jfif">
+          <div class="card-body">
+            <p class="card-text"><b>Brownie Cake</b></p>
+            <p class="card-text">Ice Cream for Everyone.Ice cream is a food that brings family and friends together.
+              The Ice Cream You Want Is Always In The Back.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="/order"><button type="button" class="btn btn-sm btn-outline-secondary" id="u">Buy</button></a>
+                <button type="button" class="btn btn-sm btn-outline-secondary cart" id="ab">Add to cart</button>
+              </div>
+             <small class="text-body-secondary"><span id="a">₹160.00</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/b.jfif">
+          <div class="card-body">
+            <p class="card-text"><b>Munch-king Corn</b></p>
+            <p class="card-text">Bud on Ice Cream.Life is too short for bad Ice Cream.
+              I scream, you scream, we all scream for Ice Cream.We Make Ice Cream Delivery Easy.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="/order"><button type="button" class="btn btn-sm btn-outline-secondary" id="v">Buy</button></a>
+                <button type="button" class="btn btn-sm btn-outline-secondary cart" id="bc">Add to cart</button>
+              </div>
+              <small class="text-body-secondary"><span id="b">₹250.00</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/c.jfif">
+          <div class="card-body">
+            <p class="card-text"><b>Chocolate cupcake</b></p>
+            <p class="card-text">Good ice cream is an art, served in a cone.The joy of ice cream.Ice cream is the
+              perfect medium to spread happiness!</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="/order"><button type="button" class="btn btn-sm btn-outline-secondary" id="w">Buy</button></a>
+                <button type="button" class="btn btn-sm btn-outline-secondary cart" id="cd">Add to cart</button>
+              </div>
+              <small class="text-body-secondary"><span id="c">₹360.00</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/d.jfif">
+          <div class="card-body">
+            <p class="card-text"><b>Star-Moon Corn</b></p>
+            <p class="card-text">Good ice cream is a rare thing. Luckily, we have the scoop on. Cold and creamy, this is
+              the ultimate cool treat.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="/order"><button type="button" class="btn btn-sm btn-outline-secondary" id="x">Buy</button></a>
+
+                <button type="button" class="btn btn-sm btn-outline-secondary cart" id="de">Add to cart</button>
+              </div>
+              <small class="text-body-secondary"><span id="d">₹400.00</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/e.jfif">
+          <div class="card-body">    
+          <p class="card-text"><b>Smoke rocher</b></p>
+            <p class="card-text">The colder it gets, the happier you’ll be with an extra scoop.
+              Wishing you a creamy, sweet weekend 😋😋😋</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                 <a href="/order"><button type="button" class="btn btn-sm btn-outline-secondary" id="y">Buy</button></a>
+
+                <button type="button" class="btn btn-sm btn-outline-secondary cart" id="ef">Add to cart</button>
+              </div>
+              <small class="text-body-secondary"><span id="e">₹220.00</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/f.jfif">
+          <div class="card-body">
+            <p class="card-text"><b>Ice-Creams</b></p>
+            <p class="card-text">A place where ice cream dreams come true. Ice cream is better than cake.
+              We scream for ice cream.We Make Ice Cream Delivery Easy.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="/order"><button type="button" class="btn btn-sm btn-outline-secondary" id="z">Buy</button></a>
+                <button type="button" class="btn btn-sm btn-outline-secondary cart" id="fg">Add to cart</button>
+              </div>
+              <small class="text-body-secondary"><span id="f">₹180.00</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
+
+{% block js %}
+<script>
+
+  console.log("working")
+  if (localStorage.getItem("cart") != null) {
+    var cart = {};
+  }
+  else {
+    console.log("hyy")
+    cart = JSON.parse(localStorage.getItem('cart'));
+    document.getElementById('cart').innerHTML = Object.keys(cart).length
+
+  }
+
+  $('.cart').click(function () {
+
+    console.log('clicked');
+    var idstr = this.id.toString();
+    console.log(idstr);
+    if (cart[idstr] != undefined) {
+      cart[idstr] = cart[idstr] + 1;
+    }
+    else {
+      cart[idstr] = 1;
+    }
+    console.log(cart);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    document.getElementById('cart').innerHTML = Object.keys(cart).length
+
+  });
+
+  const a = document.getElementById("a")
+  const u = document.getElementById("u")
+  u.addEventListener('onclick',function(){
+    const avalue=a.innerHTML
+    localStorage.setItem("value",avalue)
+    window.location.href="order.html";
+  });
+  const b = document.getElementById("b")
+  const v = document.getElementById("v")
+  v.addEventListener('onclick',function(){
+  const bvalue=b.innerHTML
+  localStorage.setItem("value",bvalue)
+  window.location.href="order.html";
+ });
+  const c = document.getElementById("c")
+  const w = document.getElementById("w")
+  w.addEventListener('onclick',function(){
+  const cvalue=c.innerHTML
+  localStorage.setItem("value",cvalue)
+  window.location.href="order.html";
+ });
+  const d = document.getElementById("d")
+  const x = document.getElementById("x")
+  x.addEventListener('onclick',function(){
+  const dvalue=d.innerHTML
+  localStorage.setItem("value",dvalue)
+  window.location.href="order.html";
+ });
+  const e = document.getElementById("e")
+  const y = document.getElementById("y")
+  y.addEventListener('onclick',function(){
+  const evalue=e.innerHTML
+  localStorage.setItem("value",evalue)
+  window.location.href="order.html";
+ });
+  const f = document.getElementById("f")
+  const z = document.getElementById("z")
+  z.addEventListener('onclick',function(){
+  const fvalue=f.innerHTML
+  localStorage.setItem("value",fvalue)
+  window.location.href="order.html";
+ });
+</script>
+{% endblock js %}
